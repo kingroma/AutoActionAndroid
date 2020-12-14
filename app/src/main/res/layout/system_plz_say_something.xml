@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="620px"
+    android:layout_height="wrap_content"
+    android:gravity="left"
+    >
+    <LinearLayout
+        android:layout_width="70px"
+        android:layout_height="wrap_content"
+        android:gravity="bottom"
+        android:orientation="vertical"
+        android:layout_marginRight="20px"
+        >
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/system_plz_say_something_radius"
+        android:paddingTop="19px"
+        android:paddingBottom="19px"
+        android:paddingLeft="30px"
+        android:paddingRight="30px"
+        android:text="hello world"
+        android:textColor="#ffffff"
+        >
+        <ImageView
+            android:layout_width="24px"
+            android:layout_height="24px"
+            android:text="sdfsdfdsf"
+            android:layout_gravity="center"
+            android:src="@drawable/icon_info"
+            android:background="#2f3445" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" 음성"
+            android:textFontWeight="700"
+            android:textColor="#dde3ff"
+            android:gravity="center"
+            android:textSize="19px"
+            android:background="#2f3445" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/message"
+            android:text=" 으로 질문에 답해주세요"
+            android:gravity="center"
+            android:textColor="#dde3ff"
+            android:textSize="19px"
+            android:background="#2f3445" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="800px"
+    android:layout_height="wrap_content"
+    android:gravity="right"
+    android:paddingRight="60px"
+    >
+    <TextView
+        android:id="@+id/text"
+        android:background="@drawable/user_radius"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxWidth="600px"
+        android:paddingTop="19px"
+        android:paddingBottom="19px"
+        android:paddingLeft="30px"
+        android:paddingRight="30px"
+        android:textSize="22px"
+        android:textColor="#ffffff"
+        android:text="안녕하세요"
+        />
+</LinearLayout>

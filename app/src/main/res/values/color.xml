@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="your_color">#DC143C</color>
+
+    <color name="btn1_1">#ffc001</color>
+    <color name="btn1_2">#ffc506</color>
+
+    <color name="btn2_1">#2f3445</color>
+    <color name="btn2_2">#abcdef</color>
+
+</resources>
